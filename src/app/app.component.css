@@ -19,3 +19,13 @@
 img {
   max-width: 100%;
 }
+
+.capsula {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.company {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

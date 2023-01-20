@@ -1,7 +1,26 @@
-<div style="background-color: #f1db42">
+<div style="background-color: magenta">
 <p>Michelle Negrellos Fong | 5B</p>
 </div>
 <div class="wrapper">
+  <div class="capsula">
+    <h1>CAPSULA</h1>
+    <div class="item" *ngFor="let item of capsule">
+      <h1> {{ item.serial }} </h1>
+      <p> {{ item.status }} </p>
+      <p> {{ item.type }} </p>
+      <p> {{ item.id }} </p>
+    </div>
+  </div>
+  <div class="company">
+    <h1>COMPANY</h1>
+    <div class="item" *ngFor="let item of company">
+      <h1> {{ item.name }} </h1>
+      <p> {{ item.founder }} </p>
+      <p> {{ item.type }} </p>
+      <p> {{ item.summary }} </p>
+      <p> {{ item.id }} </p>
+    </div>
+  </div>
   <div class="gallery">
     <div class="item" *ngFor="let item of data">
       <h1> {{ item.name }} </h1>
